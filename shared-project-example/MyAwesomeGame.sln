@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MyAwesomeGame.Shared", "MyAwesomeGame.Shared\MyAwesomeGame.Shared.shproj", "{97E97D9B-E7C6-435C-A845-123BEA56E98D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAwesomeGame.OpenGL", "MyAwesomeGame.OpenGL\MyAwesomeGame.OpenGL.csproj", "{6C277278-F425-49F6-A983-8B28F1B7D0DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAwesomeGame.Android", "MyAwesomeGame.Android\MyAwesomeGame.Android.csproj", "{B9D8F30A-1987-4165-BDF1-00BA001F2756}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAwesomeGame.Content", "MyAwesomeGame.Content\MyAwesomeGame.Content.csproj", "{4D24D4F1-B6C9-4E56-8CBF-DAD6ADDF4221}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		MyAwesomeGame.Shared\MyAwesomeGame.Shared.projitems*{6c277278-f425-49f6-a983-8b28f1b7d0db}*SharedItemsImports = 4
+		MyAwesomeGame.Shared\MyAwesomeGame.Shared.projitems*{97e97d9b-e7c6-435c-a845-123bea56e98d}*SharedItemsImports = 13
+		MyAwesomeGame.Shared\MyAwesomeGame.Shared.projitems*{b9d8f30a-1987-4165-bdf1-00ba001f2756}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C277278-F425-49F6-A983-8B28F1B7D0DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C277278-F425-49F6-A983-8B28F1B7D0DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C277278-F425-49F6-A983-8B28F1B7D0DB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6C277278-F425-49F6-A983-8B28F1B7D0DB}.Debug|x86.Build.0 = Debug|Any CPU
+		{6C277278-F425-49F6-A983-8B28F1B7D0DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C277278-F425-49F6-A983-8B28F1B7D0DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C277278-F425-49F6-A983-8B28F1B7D0DB}.Release|x86.ActiveCfg = Release|Any CPU
+		{6C277278-F425-49F6-A983-8B28F1B7D0DB}.Release|x86.Build.0 = Release|Any CPU
+		{B9D8F30A-1987-4165-BDF1-00BA001F2756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9D8F30A-1987-4165-BDF1-00BA001F2756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9D8F30A-1987-4165-BDF1-00BA001F2756}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B9D8F30A-1987-4165-BDF1-00BA001F2756}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B9D8F30A-1987-4165-BDF1-00BA001F2756}.Debug|x86.Build.0 = Debug|Any CPU
+		{B9D8F30A-1987-4165-BDF1-00BA001F2756}.Debug|x86.Deploy.0 = Debug|Any CPU
+		{B9D8F30A-1987-4165-BDF1-00BA001F2756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9D8F30A-1987-4165-BDF1-00BA001F2756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9D8F30A-1987-4165-BDF1-00BA001F2756}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B9D8F30A-1987-4165-BDF1-00BA001F2756}.Release|x86.ActiveCfg = Release|Any CPU
+		{B9D8F30A-1987-4165-BDF1-00BA001F2756}.Release|x86.Build.0 = Release|Any CPU
+		{B9D8F30A-1987-4165-BDF1-00BA001F2756}.Release|x86.Deploy.0 = Release|Any CPU
+		{4D24D4F1-B6C9-4E56-8CBF-DAD6ADDF4221}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{4D24D4F1-B6C9-4E56-8CBF-DAD6ADDF4221}.Debug|x86.ActiveCfg = Debug|x86
+		{4D24D4F1-B6C9-4E56-8CBF-DAD6ADDF4221}.Debug|x86.Build.0 = Debug|x86
+		{4D24D4F1-B6C9-4E56-8CBF-DAD6ADDF4221}.Release|Any CPU.ActiveCfg = Release|x86
+		{4D24D4F1-B6C9-4E56-8CBF-DAD6ADDF4221}.Release|x86.ActiveCfg = Release|x86
+		{4D24D4F1-B6C9-4E56-8CBF-DAD6ADDF4221}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB98C5C0-4F3E-4233-A88E-BD8A9AEF2B11}
+	EndGlobalSection
+EndGlobal
